@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-09-26 13:47:40.463008200 UTC
+// 2025-10-03 18:50:22.722223800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 717
+        // Class count: 718
         // Enum count: 150
         pub mod server_dll {
             // Alignment: 4
@@ -1821,7 +1821,7 @@ pub mod cs2_dumper {
                 MOVETYPE_CUSTOM = 0xA,
                 MOVETYPE_LAST = 0xB
             }
-            // Parent: CCSWeaponBase
+            // Parent: CCSWeaponBaseShotgun
             // Field count: 0
             pub mod CWeaponNOVA {
             }
@@ -2769,6 +2769,10 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 0
             pub mod CTestPulseIOAPI {
+            }
+            // Parent: CCSWeaponBase
+            // Field count: 0
+            pub mod CCSWeaponBaseShotgun {
             }
             // Parent: None
             // Field count: 7
@@ -6495,7 +6499,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod CLightSpotEntity {
             }
-            // Parent: CCSWeaponBase
+            // Parent: CCSWeaponBaseShotgun
             // Field count: 0
             pub mod CWeaponSawedoff {
             }
@@ -11919,7 +11923,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod CCSPlayer_DamageReactServices {
             }
-            // Parent: CCSWeaponBase
+            // Parent: CCSWeaponBaseShotgun
             // Field count: 0
             pub mod CWeaponXM1014 {
             }
