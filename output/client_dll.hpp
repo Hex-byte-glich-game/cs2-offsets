@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-28 12:50:29.472832200 UTC
+// 2025-11-02 13:14:14.722594200 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 212
-        // Enum count: 24
+        // Enum count: 5
         namespace client_dll {
             // Parent: C_Inferno
             // Field count: 0
@@ -355,12 +355,12 @@ namespace cs2_dumper {
             // NetworkVarNames: m_iBombSite (int)
             // NetworkVarNames: m_hBombPlanter (CHandle<CCSPlayerPawn>)
             namespace C_RetakeGameRules {
-                constexpr std::ptrdiff_t m_nMatchSeed = 0xF8; // int32
-                constexpr std::ptrdiff_t m_bBlockersPresent = 0xFC; // bool
-                constexpr std::ptrdiff_t m_bRoundInProgress = 0xFD; // bool
-                constexpr std::ptrdiff_t m_iFirstSecondHalfRound = 0x100; // int32
-                constexpr std::ptrdiff_t m_iBombSite = 0x104; // int32
-                constexpr std::ptrdiff_t m_hBombPlanter = 0x108; // CHandle<C_CSPlayerPawn>
+                constexpr std::ptrdiff_t m_nMatchSeed = 0x138; // int32
+                constexpr std::ptrdiff_t m_bBlockersPresent = 0x13C; // bool
+                constexpr std::ptrdiff_t m_bRoundInProgress = 0x13D; // bool
+                constexpr std::ptrdiff_t m_iFirstSecondHalfRound = 0x140; // int32
+                constexpr std::ptrdiff_t m_iBombSite = 0x144; // int32
+                constexpr std::ptrdiff_t m_hBombPlanter = 0x148; // CHandle<C_CSPlayerPawn>
             }
             // Parent: None
             // Field count: 2

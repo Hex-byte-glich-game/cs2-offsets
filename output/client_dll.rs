@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-28 12:50:29.472832200 UTC
+// 2025-11-02 13:14:14.722594200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod cs2_dumper {
     pub mod schemas {
         // Module: client.dll
         // Class count: 212
-        // Enum count: 24
+        // Enum count: 5
         pub mod client_dll {
             // Parent: C_Inferno
             // Field count: 0
@@ -353,12 +353,12 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_iBombSite (int)
             // NetworkVarNames: m_hBombPlanter (CHandle<CCSPlayerPawn>)
             pub mod C_RetakeGameRules {
-                pub const m_nMatchSeed: usize = 0xF8; // int32
-                pub const m_bBlockersPresent: usize = 0xFC; // bool
-                pub const m_bRoundInProgress: usize = 0xFD; // bool
-                pub const m_iFirstSecondHalfRound: usize = 0x100; // int32
-                pub const m_iBombSite: usize = 0x104; // int32
-                pub const m_hBombPlanter: usize = 0x108; // CHandle<C_CSPlayerPawn>
+                pub const m_nMatchSeed: usize = 0x138; // int32
+                pub const m_bBlockersPresent: usize = 0x13C; // bool
+                pub const m_bRoundInProgress: usize = 0x13D; // bool
+                pub const m_iFirstSecondHalfRound: usize = 0x140; // int32
+                pub const m_iBombSite: usize = 0x144; // int32
+                pub const m_hBombPlanter: usize = 0x148; // CHandle<C_CSPlayerPawn>
             }
             // Parent: None
             // Field count: 2

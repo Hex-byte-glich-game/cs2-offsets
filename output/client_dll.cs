@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-28 12:50:29.472832200 UTC
+// 2025-11-02 13:14:14.722594200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
     // Class count: 212
-    // Enum count: 24
+    // Enum count: 5
     public static class ClientDll {
         // Parent: C_Inferno
         // Field count: 0
@@ -350,12 +350,12 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_iBombSite (int)
         // NetworkVarNames: m_hBombPlanter (CHandle<CCSPlayerPawn>)
         public static class C_RetakeGameRules {
-            public const nint m_nMatchSeed = 0xF8; // int32
-            public const nint m_bBlockersPresent = 0xFC; // bool
-            public const nint m_bRoundInProgress = 0xFD; // bool
-            public const nint m_iFirstSecondHalfRound = 0x100; // int32
-            public const nint m_iBombSite = 0x104; // int32
-            public const nint m_hBombPlanter = 0x108; // CHandle<C_CSPlayerPawn>
+            public const nint m_nMatchSeed = 0x138; // int32
+            public const nint m_bBlockersPresent = 0x13C; // bool
+            public const nint m_bRoundInProgress = 0x13D; // bool
+            public const nint m_iFirstSecondHalfRound = 0x140; // int32
+            public const nint m_iBombSite = 0x144; // int32
+            public const nint m_hBombPlanter = 0x148; // CHandle<C_CSPlayerPawn>
         }
         // Parent: None
         // Field count: 2
